@@ -34,9 +34,9 @@ Data preprocessing is located in the `utils` directory, with key files including
 
 ### Model Definition
 Model definitions are located in the `models` directory, with key files including:
-- `autoencoder.py`: Defines the autoencoder model.
-- `classifier.py`: Fully connected layers + softmax for final classification.
-- `TCS_loss.py`: Custom Triplet-Center Similarity Loss for optimizing model training.
+1. `autoencoder.py`: Defines the autoencoder model.
+2. `classifier.py`: Fully connected layers + softmax for final classification.
+3. `TCS_loss.py`: Custom Triplet-Center Similarity Loss for optimizing model training.
 
 ### Training the Model
 
